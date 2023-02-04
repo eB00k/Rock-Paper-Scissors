@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/459836b94a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">Rock, Paper & Scissors</div>
+      <div class="main">
+        <div class="user">
+          <div class="name">Player</div>
+          <div id="player-el" class="user-hands">
+            <i class="fa-regular fa-hand-back-fist"></i>
+            <!-- <i class="fa-regular fa-hand-scissors"></i>
+            <i class="fa-regular fa-hand"></i> -->
+          </div>
+        </div>
+        <div class="results-bar">
+          <div class="score"><span id="user-score">0</span><span class="sep">:</span><span id="computer-score">0</span></div>
+          <div id="phrase" class="phrase">Draw</div>
+        </div>
+        <div class="user">
+          <div class="name">Computer</div>
+          <div class="user-hands" id="computer-el">
+            <i class="fa-regular fa-hand-back-fist"></i>
+            <!-- <i class="fa-regular fa-hand-scissors"></i>
+            <i class="fa-regular fa-hand"></i> -->
+          </div>
+        </div>
+      </div>
+      <div class="buttons">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissor</button>
+      </div>
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>
